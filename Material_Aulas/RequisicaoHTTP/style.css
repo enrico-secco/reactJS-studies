@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 60px;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: #4c89e3;
+    color: #ffffff;
+}
+
+header:hover{
+    color: #000;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+
+.container article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    width: 700px;
+    background-color: #ffffff;    
+    border-width: 1px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container strong{
+    font-size: 25px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.container p{
+    margin: 5px;
+}
+
+.botao{
+    height: 40px;
+    background: none;
+
+    color: #4c89e3;
+    border: 2px solid #4c89e3;
+    border-radius: 5px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: all 0.5s;
+
+    margin: 10px;
+}
+
+.botao:hover{
+    background-color: #4c89e3;
+    color: #ffffff;
+
+}
